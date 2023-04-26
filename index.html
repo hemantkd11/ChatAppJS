@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="Chat.css">
+
+        <title>ChatApp</title>
+    </head>
+    <body onload="Start()">
+        <div class="display">
+            <div class="main" id="chat1">
+                <h2 id="heading">ChatRoom</h2>
+                <div id="mes_area">
+                    <div id="robot">
+                        <div id="bot">
+
+                        </div>
+                        <div><h3 class="subHead">Hemant</h3></div>
+
+                    </div>
+                </div>
+                <div id="input">
+                    <input type="text" name="text" id="inputText"
+                        placeholder="Type Your Message Here">
+                    <button id="send">Send <i class="fa fa-paper-plane"></i></button>
+                </div>
+            </div>
+            <div class="main" id="chat2">
+                <h2 id="heading">ChatRoom</h2>
+                <div id="mes_area2">
+                    <div id="robot">
+                        <div id="bot">
+
+                        </div>
+                        <div><h3 class="subHead">Diwakar</h3></div>
+
+                    </div>
+                </div>
+                <div id="input">
+                    <input type="text" name="text" id="inputText2"
+                        placeholder="Type Your Message Here">
+                    <button id="send2">Send <i class="fa fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.5/axios.min.js"
+            integrity="sha512-nnNHpffPSgINrsR8ZAIgFUIMexORL5tPwsfktOTxVYSv+AUAILuFYWES8IHl+hhIhpFGlKvWFiz9ZEusrPcSBQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="chat.js"></script>
+    </body>
+
+</html>

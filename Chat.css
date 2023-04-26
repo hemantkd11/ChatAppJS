@@ -1,0 +1,150 @@
+::-webkit-scrollbar {
+  width: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  overflow: hidden;
+}
+.display {
+  display: flex;
+  gap: 10px;
+}
+#chat1 {
+  width: 50%;
+  max-width: 400px;
+  height: 100vh;
+  box-shadow: inset 0 0 10px 4px rgba(17, 16, 16, 0.4);
+}
+#chat2 {
+  width: 50%;
+  max-width: 400px;
+  height: 100vh;
+  box-shadow: inset 0 0 10px 4px rgba(17, 16, 16, 0.4);
+}
+#heading {
+  text-align: center;
+  font-family: sans-serif;
+  background: #1c1c46;
+  color: #fff;
+  padding: 8px;
+  text-shadow: 1px 1px 4px #0dd81e;
+  box-shadow: 0 4px 8px #000a;
+  margin-bottom: 8pxs;
+}
+#mes_area {
+  height: 82%;
+  padding: 0 12px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+#mes_area2 {
+  height: 82%;
+  padding: 0 12px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+#bot {
+  width: 30px;
+  height: 30px;
+  background: url("https://www.shutterstock.com/image-vector/chat-bot-logo-design-concept-260nw-1938811039.jpg");
+  background-size: 100%;
+  border-radius: 50%;
+  margin: 10px;
+}
+#robot {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #1c1c46;
+  margin-bottom: 10px;
+}
+.subHead {
+  font-family: monospace;
+  font-size: 20px;
+}
+#input {
+  height: 7%;
+  min-height: 42px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  margin: 8px 16px;
+  border-radius: 32px;
+  background: linear-gradient(#ececee 50%, #1c1f46 50%);
+  box-shadow: inset 0 1px 0 #777;
+}
+#inputText {
+  outline: none;
+  font-size: 18;
+  background: #ececee;
+  color: #333;
+  border-radius: 32px 0 32px 32px;
+  border: 1px solid #7c7a7a;
+  padding: 0 16px;
+  border-right: none;
+}
+#inputText2 {
+  outline: none;
+  font-size: 18;
+  background: #ececee;
+  color: #333;
+  border-radius: 32px 0 32px 32px;
+  border: 1px solid #7c7a7a;
+  padding: 0 16px;
+  border-right: none;
+}
+#send {
+  outline: none;
+  font-size: 18px;
+  background-color: #1c1c46;
+  color: #eee;
+  border: none;
+  border-radius: 32px;
+}
+#send:active {
+  font-size: 16px;
+}
+#send2 {
+  outline: none;
+  font-size: 18px;
+  background-color: #1c1c46;
+  color: #eee;
+  border: none;
+  border-radius: 32px;
+}
+#send2:active {
+  font-size: 16px;
+}
+.left,
+.right {
+  font-size: 18px;
+  font-family: monospace;
+  display: inline-block;
+  width: auto;
+  max-width: 80%;
+  padding: 14px;
+  word-wrap: break-word;
+}
+
+.msgCon1,
+.msgCon2 {
+  width: 100%;
+  display: inline-block;
+}
+.left {
+  color: #000a;
+  background-color: #65bb2c;
+  border-radius: 0 16px 16px 16px;
+}
+.right {
+  float: right;
+  color: #000a;
+  background-color: #367ab9;
+  border-radius: 16px 0px 16px 16px;
+}
